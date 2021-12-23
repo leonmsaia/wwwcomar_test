@@ -15,7 +15,7 @@ if ($appStatus['mode'] == 'production') {
 }elseif ($appStatus['mode'] == 'development'){
  	$config['sess_driver'] = 'files';
  	$config['sess_save_path'] = NULL;
- 	$config['base_url'] = 'http://localhost/wwwcomar';
+ 	$config['base_url'] = 'http://localhost/wwwcomar_test';
 }
 
 $config['page_name'] = 'WWWCOMAR - Testing';
